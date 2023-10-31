@@ -5,21 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Định dạng khung viền</title>
     <style>
-          .div1 {
-        border: 2px dotted blue ;
-        margin: 50px;
-       
-
-
+    .div1 {
+        border-style:solid; border-color:  blue ;
+        margin: 120px;
+        text-align: center; 
+        border-width: 10px;
+        border-radius: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 1px;
+        padding-right: 1px;
+        font-size: xxx-large;
+    }
+    .div2{
+        border-style: dashed;
+        border-width: 9px;
+        border-radius: 40px;
+        border-color: rgb(54, 42, 219);
+        margin: 120px;
+    }
+    .div3{
+        border-style: dashed;
+        border-color: blue;
+        border-radius: 40px;
+        border-width: 20px;
+        margin: 10px;
     }
     </style>
   
 </head>
 <body>
-    <div > 
-        <div border-style="dashed";>
-            <div class="div1">
-                I am heavily packed div
+    <div class="div3"> 
+        <div class="div2">
+            <div class="div1" >
+                <h1>I am heavily packed &lt DIV &gt </h1>
             </div>
         </div>
     </div>
